@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/signin/signin",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/signup/signup",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/userhome/userhome",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/userdetials/userdetials",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/friendrequest/friendrequest",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/chatroom/chatroom",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/buildgroup/buildgroup",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/groupdetail/groupdetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/inviteusers/inviteusers",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
